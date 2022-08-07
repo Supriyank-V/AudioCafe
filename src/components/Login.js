@@ -4,7 +4,7 @@ function Login() {
 
   const connectSpotify = () => {
     const client_id = 'b7c95361a5f347df90c38b94beee6170';
-    const redirect_uri = 'http://localhost:3000/';
+    const redirect_uri = 'https://audiocafe.netlify.app/';
     const api_url = 'https://accounts.spotify.com/authorize';
     const scope = [
       'user-read-email',
